@@ -11,7 +11,7 @@ public class P_29_0117 {
     }
 
     private static int solution(int n, String control){
-        int answer = 0;
+        int answer = n;
         for (int i = 0 ; i < control.length(); i ++){
             if (control.charAt(i) == 'w'){
                 answer += 1;
